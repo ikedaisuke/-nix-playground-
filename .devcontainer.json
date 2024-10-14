@@ -4,7 +4,8 @@
 	"features": {
 		"ghcr.io/devcontainers/features/nix:1": {
 		  "multiUser": true,
-		  "version": "latest"
+		  "version": "latest",
+		  "postCreateCommand": "mkdir -p ~/.config/nix && [[ ! ~/.config/nix/nix.conf ]] && echo \"experimental-features = nix-command flakes\" >> ~/.config/nix/nix.conf"
     }
   }
 }
