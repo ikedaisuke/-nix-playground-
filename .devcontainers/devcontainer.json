@@ -5,7 +5,7 @@
 		"ghcr.io/devcontainers/features/nix:1": {
 		  "multiUser": true,
 		  "version": "latest",
-		  "postCreateCommand": "sh ./post-create.sh"
+		  "postCreateCommand": "/bin/sh ./post-create.sh"
     }
   }
 }
