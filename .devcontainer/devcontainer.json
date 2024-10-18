@@ -1,8 +1,8 @@
 {
-	"name": "-nixos-playground-",
+	"name": "_-nixos-playground_",
 	"image":"mcr.microsoft.com/devcontainers/base:alpine",
 	"workspaceFolder" : "/home/nixuser",
-	"remoteUser" : "nixuser"
+	"remoteUser" : "nixuser",
 	"features": {
 		"ghcr.io/devcontainers/features/nix:1": {
 		  "multiUser": false,
