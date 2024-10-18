@@ -1,10 +1,12 @@
 {
 	"name": "-nixos-playground-",
 	"image":"mcr.microsoft.com/devcontainers/base:alpine",
+	"workspaceFolder" : "/home/nixuser",
+	"remoteUser" : "nixuser"
 	"features": {
 		"ghcr.io/devcontainers/features/nix:1": {
 		  "multiUser": false,
 		  "version": "latest"
-    }
+		}
   }
 }
